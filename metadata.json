@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS OS",
+  "description": "AI-powered developer and team productivity ecosystem combining project management, collaboration, task boards, analytics, GitHub integration, and DevLab utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

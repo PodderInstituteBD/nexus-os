@@ -1,0 +1,557 @@
+{
+  "users": [
+    {
+      "id": "usr-owner-1",
+      "email": "alex.vance@nexus.io",
+      "fullName": "Alex Vance",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "title": "VP of Engineering / Principal Architect",
+      "role": "OWNER",
+      "passwordHash": "$2b$10$TX.5FGSF4kddwseY1s03AOPDIK4XKG99gX.hxQgBckjJswTO2PPai",
+      "createdAt": "2026-07-14T06:43:41.641Z",
+      "updatedAt": "2026-09-07T06:43:41.641Z"
+    },
+    {
+      "id": "usr-admin-1",
+      "email": "sarah.connor@nexus.io",
+      "fullName": "Sarah Connor",
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "title": "Lead Systems Engineer & DevOps",
+      "role": "ADMIN",
+      "passwordHash": "$2b$10$TX.5FGSF4kddwseY1s03AOPDIK4XKG99gX.hxQgBckjJswTO2PPai",
+      "createdAt": "2026-07-19T06:43:41.641Z",
+      "updatedAt": "2026-09-02T06:43:41.641Z"
+    },
+    {
+      "id": "usr-dev-1",
+      "email": "marcus.chen@nexus.io",
+      "fullName": "Marcus Chen",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "title": "Senior Full-Stack Engineer",
+      "role": "DEVELOPER",
+      "passwordHash": "$2b$10$TX.5FGSF4kddwseY1s03AOPDIK4XKG99gX.hxQgBckjJswTO2PPai",
+      "createdAt": "2026-07-29T06:43:41.641Z",
+      "updatedAt": "2026-09-10T06:43:41.641Z"
+    },
+    {
+      "id": "usr-designer-1",
+      "email": "elena.rostova@nexus.io",
+      "fullName": "Elena Rostova",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "title": "Principal Product & UX Designer",
+      "role": "DESIGNER",
+      "passwordHash": "$2b$10$TX.5FGSF4kddwseY1s03AOPDIK4XKG99gX.hxQgBckjJswTO2PPai",
+      "createdAt": "2026-08-03T06:43:41.641Z",
+      "updatedAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "usr-member-1",
+      "email": "david.kim@nexus.io",
+      "fullName": "David Kim",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "title": "Backend & Data Engineer",
+      "role": "MEMBER",
+      "passwordHash": "$2b$10$TX.5FGSF4kddwseY1s03AOPDIK4XKG99gX.hxQgBckjJswTO2PPai",
+      "createdAt": "2026-08-13T06:43:41.641Z",
+      "updatedAt": "2026-09-08T06:43:41.641Z"
+    },
+    {
+      "email": "demo@gamil.com",
+      "fullName": "Demo User",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=demo%40gamil.com",
+      "title": "Software Engineer",
+      "role": "MEMBER",
+      "passwordHash": "$2b$10$.CQ13GbiCK//nsPlsugw6uKIK38DwscBXuagnseiAdErQOAfF5nkC",
+      "id": "usr-946714f9-39c0-4555-bf6f-6b4c822499a6",
+      "createdAt": "2026-09-12T06:59:32.522Z",
+      "updatedAt": "2026-09-12T06:59:32.523Z"
+    },
+    {
+      "email": "sarah.conor@nexus.io",
+      "fullName": "sarah connor",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=sarah.conor%40nexus.io",
+      "title": "Software Engineer",
+      "role": "MEMBER",
+      "passwordHash": "$2b$10$Jjm4/ONHr1MpNNDhSK73J.7oghmKdH190k9r.0bX2GxhtnEibTbui",
+      "id": "usr-756dbe18-0128-48a2-aec5-fae1e3311adb",
+      "createdAt": "2026-09-12T07:01:21.505Z",
+      "updatedAt": "2026-09-12T07:01:21.505Z"
+    },
+    {
+      "email": "sarah.conor481@nexus.io",
+      "fullName": "sarah connor",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=sarah.conor481%40nexus.io",
+      "title": "Software Engineer",
+      "role": "MEMBER",
+      "passwordHash": "$2b$10$XJyOH/edgss957mGkaqrZOYU/sQn1njlQWBIu.dRntE277o6CkfK.",
+      "id": "usr-11b32cb2-1d49-4170-b736-b8d118a4a572",
+      "createdAt": "2026-09-12T07:01:30.881Z",
+      "updatedAt": "2026-09-12T07:01:30.881Z"
+    },
+    {
+      "email": "demo1246e87@gmail.com",
+      "fullName": "demo",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=demo1246e87%40gmail.com",
+      "title": "Software Engineer",
+      "role": "MEMBER",
+      "passwordHash": "$2b$10$1ZmZvTmHU9WZfMp/KZSykezlznDQAhi6Q4kzc5E1Rrn.l2FZ3alRi",
+      "id": "usr-642073d6-4d80-4b0e-a353-d240aadc6923",
+      "createdAt": "2026-09-12T07:01:55.825Z",
+      "updatedAt": "2026-09-12T07:01:55.825Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-nexus-core",
+      "name": "Nexus Core Platform",
+      "slug": "nexus-core-platform",
+      "description": "Core developer ecosystem, microservices mesh, real-time messaging, and AI orchestration.",
+      "ownerId": "usr-owner-1",
+      "createdAt": "2026-07-14T06:43:41.641Z",
+      "updatedAt": "2026-09-11T06:43:41.641Z"
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "tm-usr-owner-1",
+      "teamId": "team-nexus-core",
+      "userId": "usr-owner-1",
+      "role": "OWNER",
+      "joinedAt": "2026-07-14T06:43:41.641Z"
+    },
+    {
+      "id": "tm-usr-admin-1",
+      "teamId": "team-nexus-core",
+      "userId": "usr-admin-1",
+      "role": "ADMIN",
+      "joinedAt": "2026-07-19T06:43:41.641Z"
+    },
+    {
+      "id": "tm-usr-dev-1",
+      "teamId": "team-nexus-core",
+      "userId": "usr-dev-1",
+      "role": "DEVELOPER",
+      "joinedAt": "2026-07-29T06:43:41.641Z"
+    },
+    {
+      "id": "tm-usr-designer-1",
+      "teamId": "team-nexus-core",
+      "userId": "usr-designer-1",
+      "role": "DESIGNER",
+      "joinedAt": "2026-08-03T06:43:41.641Z"
+    },
+    {
+      "id": "tm-usr-member-1",
+      "teamId": "team-nexus-core",
+      "userId": "usr-member-1",
+      "role": "MEMBER",
+      "joinedAt": "2026-08-13T06:43:41.641Z"
+    },
+    {
+      "id": "tm-d928bf49-36ff-4e23-b564-dd0356b0f61e",
+      "teamId": "team-nexus-core",
+      "userId": "usr-946714f9-39c0-4555-bf6f-6b4c822499a6",
+      "role": "MEMBER",
+      "joinedAt": "2026-09-12T06:59:32.523Z"
+    },
+    {
+      "id": "tm-5891bb74-2c46-403c-8ac4-c49923e329ff",
+      "teamId": "team-nexus-core",
+      "userId": "usr-756dbe18-0128-48a2-aec5-fae1e3311adb",
+      "role": "MEMBER",
+      "joinedAt": "2026-09-12T07:01:21.505Z"
+    },
+    {
+      "id": "tm-a41a6724-0987-45ef-95b9-fb09a6570f22",
+      "teamId": "team-nexus-core",
+      "userId": "usr-11b32cb2-1d49-4170-b736-b8d118a4a572",
+      "role": "MEMBER",
+      "joinedAt": "2026-09-12T07:01:30.881Z"
+    },
+    {
+      "id": "tm-21ef0f78-50c0-4d32-b3a6-36bb56852be8",
+      "teamId": "team-nexus-core",
+      "userId": "usr-642073d6-4d80-4b0e-a353-d240aadc6923",
+      "role": "MEMBER",
+      "joinedAt": "2026-09-12T07:01:55.825Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-gateway-v2",
+      "teamId": "team-nexus-core",
+      "name": "Distributed API Gateway v2",
+      "slug": "api-gateway-v2",
+      "description": "High-throughput edge reverse proxy with rate limiting, JWT validation, and gRPC downstream routing.",
+      "status": "ACTIVE",
+      "priority": "HIGH",
+      "repoUrl": "https://github.com/expressjs/express",
+      "healthScore": 100,
+      "targetDate": "2026-09-26T06:43:41.641Z",
+      "createdAt": "2026-08-18T06:43:41.641Z",
+      "updatedAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "proj-ai-inference",
+      "teamId": "team-nexus-core",
+      "name": "Nexus AI Intelligence Pipeline",
+      "slug": "ai-intelligence-pipeline",
+      "description": "Gemini-powered task decomposition, automated code reviews, sprint health audits, and anomaly detection.",
+      "status": "IN_PROGRESS",
+      "priority": "URGENT",
+      "repoUrl": "https://github.com/pallets/flask",
+      "healthScore": 100,
+      "targetDate": "2026-10-03T06:43:41.641Z",
+      "createdAt": "2026-08-23T06:43:41.641Z",
+      "updatedAt": "2026-09-12T06:43:41.640Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-101",
+      "projectId": "proj-gateway-v2",
+      "teamId": "team-nexus-core",
+      "title": "Implement sliding window rate limiting via Redis token bucket",
+      "description": "Prevent client resource exhaustion with a distributed 100 req/min sliding window algorithm. Return standard RFC 6585 headers (Retry-After, X-RateLimit-Remaining).",
+      "status": "COMPLETED",
+      "priority": "HIGH",
+      "assigneeId": "usr-dev-1",
+      "creatorId": "usr-owner-1",
+      "dueDate": "2026-09-10T06:43:41.641Z",
+      "estimatedHours": 12,
+      "actualHours": 10.5,
+      "labels": [
+        "backend",
+        "security",
+        "redis"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-1",
+          "taskId": "tsk-101",
+          "title": "Write Redis Lua script for atomic sliding window",
+          "completed": true,
+          "createdAt": "2026-09-07T06:43:41.641Z"
+        },
+        {
+          "id": "sub-2",
+          "taskId": "tsk-101",
+          "title": "Add express rate-limit middleware with IP & User ID keying",
+          "completed": true,
+          "createdAt": "2026-09-08T06:43:41.641Z"
+        },
+        {
+          "id": "sub-3",
+          "taskId": "tsk-101",
+          "title": "Load test with autocannon under 2000 concurrent conns",
+          "completed": true,
+          "createdAt": "2026-09-09T06:43:41.641Z"
+        }
+      ],
+      "createdAt": "2026-09-06T06:43:41.641Z",
+      "updatedAt": "2026-09-10T06:43:41.641Z"
+    },
+    {
+      "id": "tsk-102",
+      "projectId": "proj-gateway-v2",
+      "teamId": "team-nexus-core",
+      "title": "Audit and harden JWT refresh token revocation table",
+      "description": "Ensure compromised refresh tokens can be immediately blacklisted in PostgreSQL with cryptographic fingerprinting.",
+      "status": "IN_PROGRESS",
+      "priority": "URGENT",
+      "assigneeId": "usr-admin-1",
+      "creatorId": "usr-owner-1",
+      "dueDate": "2026-09-15T06:43:41.641Z",
+      "estimatedHours": 8,
+      "actualHours": 4.5,
+      "labels": [
+        "security",
+        "auth",
+        "database"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-4",
+          "taskId": "tsk-102",
+          "title": "Design revoked_tokens schema with auto-expiring TTL index",
+          "completed": true,
+          "createdAt": "2026-09-10T06:43:41.641Z"
+        },
+        {
+          "id": "sub-5",
+          "taskId": "tsk-102",
+          "title": "Implement constant-time hash comparison for tokens",
+          "completed": false,
+          "createdAt": "2026-09-10T06:43:41.641Z"
+        }
+      ],
+      "createdAt": "2026-09-09T06:43:41.641Z",
+      "updatedAt": "2026-09-12T06:43:41.640Z"
+    },
+    {
+      "id": "tsk-103",
+      "projectId": "proj-ai-inference",
+      "teamId": "team-nexus-core",
+      "title": "Connect Gemini 3.8 Flash model for automated PR code reviews",
+      "description": "Hook into GitHub webhook payloads to trigger server-side Gemini code summaries, spotting OWASP vulnerabilities and edge cases.",
+      "status": "IN_REVIEW",
+      "priority": "HIGH",
+      "assigneeId": "usr-dev-1",
+      "creatorId": "usr-owner-1",
+      "dueDate": "2026-09-17T06:43:41.641Z",
+      "estimatedHours": 16,
+      "actualHours": 14,
+      "labels": [
+        "ai",
+        "gemini",
+        "github"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-6",
+          "taskId": "tsk-103",
+          "title": "Construct strict developer system instruction prompt",
+          "completed": true,
+          "createdAt": "2026-09-09T06:43:41.641Z"
+        },
+        {
+          "id": "sub-7",
+          "taskId": "tsk-103",
+          "title": "Handle multi-file diff chunking within token budget",
+          "completed": true,
+          "createdAt": "2026-09-10T06:43:41.641Z"
+        },
+        {
+          "id": "sub-8",
+          "taskId": "tsk-103",
+          "title": "Format review suggestions into actionable Markdown checklist",
+          "completed": false,
+          "createdAt": "2026-09-11T06:43:41.641Z"
+        }
+      ],
+      "createdAt": "2026-09-07T06:43:41.641Z",
+      "updatedAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "tsk-104",
+      "projectId": "proj-ai-inference",
+      "teamId": "team-nexus-core",
+      "title": "Build automated CSV statistical analysis & correlation matrix",
+      "description": "Integrate Python processor script to extract mean, variance, quartiles, and correlation coefficient across sprint metrics.",
+      "status": "COMPLETED",
+      "priority": "MEDIUM",
+      "assigneeId": "usr-member-1",
+      "creatorId": "usr-admin-1",
+      "dueDate": "2026-09-11T06:43:41.641Z",
+      "estimatedHours": 10,
+      "actualHours": 9,
+      "labels": [
+        "python",
+        "analytics",
+        "data"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-9",
+          "taskId": "tsk-104",
+          "title": "Write standard library statistical calculations",
+          "completed": true,
+          "createdAt": "2026-09-08T06:43:41.641Z"
+        },
+        {
+          "id": "sub-10",
+          "taskId": "tsk-104",
+          "title": "Create interactive Recharts visualization in UI",
+          "completed": true,
+          "createdAt": "2026-09-10T06:43:41.641Z"
+        }
+      ],
+      "createdAt": "2026-09-07T06:43:41.641Z",
+      "updatedAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "tsk-105",
+      "projectId": "proj-gateway-v2",
+      "teamId": "team-nexus-core",
+      "title": "Design high-density Kanban board with touch & keyboard accessibility",
+      "description": "Implement intuitive status column transitions, priority badges, keyboard shortcuts, and instant state synchronization.",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "assigneeId": "usr-designer-1",
+      "creatorId": "usr-owner-1",
+      "dueDate": "2026-09-19T06:43:41.641Z",
+      "estimatedHours": 14,
+      "actualHours": 8,
+      "labels": [
+        "frontend",
+        "ui/ux",
+        "accessibility"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-11",
+          "taskId": "tsk-105",
+          "title": "Ensure WCAG AA contrast for status chips",
+          "completed": true,
+          "createdAt": "2026-09-10T06:43:41.641Z"
+        },
+        {
+          "id": "sub-12",
+          "taskId": "tsk-105",
+          "title": "Add quick-action task creation modal",
+          "completed": true,
+          "createdAt": "2026-09-11T06:43:41.641Z"
+        },
+        {
+          "id": "sub-13",
+          "taskId": "tsk-105",
+          "title": "Test responsive tablet and mobile collapse view",
+          "completed": false,
+          "createdAt": "2026-09-12T06:43:41.640Z"
+        }
+      ],
+      "createdAt": "2026-09-08T06:43:41.641Z",
+      "updatedAt": "2026-09-12T06:43:41.640Z"
+    },
+    {
+      "id": "tsk-106",
+      "projectId": "proj-ai-inference",
+      "teamId": "team-nexus-core",
+      "title": "Implement DevLab cryptographic hash generator and JWT debugger",
+      "description": "Provide developer utility tools running safely in client and gateway without leaking payloads to external services.",
+      "status": "COMPLETED",
+      "priority": "LOW",
+      "assigneeId": "usr-dev-1",
+      "creatorId": "usr-admin-1",
+      "dueDate": "2026-09-09T06:43:41.641Z",
+      "estimatedHours": 6,
+      "actualHours": 5,
+      "labels": [
+        "devlab",
+        "tools"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-14",
+          "taskId": "tsk-106",
+          "title": "Implement JWT signature header/claims decoder",
+          "completed": true,
+          "createdAt": "2026-09-08T06:43:41.641Z"
+        },
+        {
+          "id": "sub-15",
+          "taskId": "tsk-106",
+          "title": "Add SHA-256 and MD5 hash calculator with copy action",
+          "completed": true,
+          "createdAt": "2026-09-09T06:43:41.641Z"
+        }
+      ],
+      "createdAt": "2026-09-07T06:43:41.641Z",
+      "updatedAt": "2026-09-09T06:43:41.641Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt-1",
+      "taskId": "tsk-102",
+      "userId": "usr-owner-1",
+      "authorName": "Alex Vance",
+      "authorRole": "OWNER",
+      "content": "Please verify that token revocation hits the Redis cache first before touching the PostgreSQL read replica.",
+      "createdAt": "2026-09-10T06:43:41.641Z"
+    },
+    {
+      "id": "cmt-2",
+      "taskId": "tsk-102",
+      "userId": "usr-admin-1",
+      "authorName": "Sarah Connor",
+      "authorRole": "ADMIN",
+      "content": "Confirmed. Added an in-memory Bloom filter backed by Redis SET with a 7-day TTL.",
+      "createdAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "cmt-3",
+      "taskId": "tsk-103",
+      "userId": "usr-dev-1",
+      "authorName": "Marcus Chen",
+      "authorRole": "DEVELOPER",
+      "content": "Gemini 3.8 Flash latency is averaging ~380ms for a 200-line diff. Working smoothly!",
+      "createdAt": "2026-09-11T06:43:41.641Z"
+    }
+  ],
+  "files": [],
+  "notifications": [
+    {
+      "userId": "usr-owner-1",
+      "title": "System Telemetry Heartbeat",
+      "message": "Diagnostics SSE pipeline verified at 7:14:16 AM",
+      "type": "SYSTEM",
+      "read": false,
+      "link": "/diagnostics",
+      "id": "notif-b1d09b26-1630-4189-900c-056dd4b5582b",
+      "createdAt": "2026-09-12T07:14:16.168Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "usr-owner-1",
+      "title": "Task Assigned",
+      "message": "Sarah Connor tagged you on JWT refresh token revocation table.",
+      "type": "MENTION",
+      "read": false,
+      "link": "/tasks",
+      "createdAt": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-owner-1",
+      "title": "Project Health Update",
+      "message": "Distributed API Gateway v2 health score increased to 92/100.",
+      "type": "SYSTEM",
+      "read": true,
+      "link": "/projects",
+      "createdAt": "2026-09-10T06:43:41.641Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "usr-owner-1",
+      "title": "AI Analysis Complete",
+      "message": "Sprint risk report for Nexus AI Intelligence Pipeline is ready for review.",
+      "type": "AI_READY",
+      "read": false,
+      "link": "/ai-assistant",
+      "createdAt": "2026-09-12T06:43:41.640Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-1",
+      "teamId": "team-nexus-core",
+      "projectId": "proj-gateway-v2",
+      "userId": "usr-dev-1",
+      "userName": "Marcus Chen",
+      "action": "TASK_COMPLETED",
+      "details": "Marked \"Implement sliding window rate limiting via Redis\" as COMPLETED",
+      "timestamp": "2026-09-10T06:43:41.641Z"
+    },
+    {
+      "id": "act-2",
+      "teamId": "team-nexus-core",
+      "projectId": "proj-ai-inference",
+      "userId": "usr-member-1",
+      "userName": "David Kim",
+      "action": "CSV_ANALYSIS",
+      "details": "Analyzed sprint_metrics.csv with Python statistical engine",
+      "timestamp": "2026-09-11T06:43:41.641Z"
+    },
+    {
+      "id": "act-3",
+      "teamId": "team-nexus-core",
+      "projectId": "proj-gateway-v2",
+      "userId": "usr-admin-1",
+      "userName": "Sarah Connor",
+      "action": "SECURITY_UPDATE",
+      "details": "Updated JWT revocation blacklist table schema",
+      "timestamp": "2026-09-12T06:43:41.640Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: nexus-os-core
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/nexus_os}
+    username: ${DATABASE_USER:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: false
+    show-sql: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+nexus:
+  jwt:
+    secret: ${JWT_SECRET:nexus_super_secret_jwt_key_development_32chars_min}
+    expiration-ms: 86400000
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:3000}
